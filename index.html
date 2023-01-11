@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/css_main/style_index.css">
+        <link rel="stylesheet" href="assets/css/css_media/media_index.css">
+        <link rel="icon" href="assets/favicon/mainnn.ico">
+        <title>Simple Calculator</title>
+    </head>
+
+    <body>
+        <section>
+            <div class="main_text"><h1>Simple Calculator</h1></div>
+
+            <div class="numbers"><input placeholder="Fisrt number" type="number" id="n1"></div>
+
+            <div class="moves">
+                <input onclick="button_plus();" value="+" type="button">
+                <input onclick="button_minus();" value="-" type="button">
+                <input onclick="button_multiply();" value="*" type="button">
+                <input onclick="button_divide();" value="/" type="button">
+            </div>
+
+            <div class="numbers"><input placeholder="Second number" type="number" id="n2"></div>
+
+            <div class="result">
+                <div class="res_button"><button onclick="result();">=</button></div>
+                <div id="res"></div>
+            </div>
+        </section>
+
+        <script src="java_script/core_index.js"></script>
+    </body>
+</html>
